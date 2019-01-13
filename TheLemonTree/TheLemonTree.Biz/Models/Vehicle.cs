@@ -8,6 +8,8 @@ namespace TheLemonTree.Biz.Models
     {
         public int Id { get; set; }
         public string VIN { get; set; }
+
+        public string Model { get; set; }
         // Todo: Add other properties
 
         /// <summary>
